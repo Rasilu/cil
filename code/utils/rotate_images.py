@@ -16,7 +16,8 @@ if not os.path.exists('datasets/kaggle_augmented/training/groundtruth'):
 # go through all the images
 def produceRotated(sourcePath, destPath):
     for img_file in os.listdir(sourcePath):
-        img_read = cv2.imread(sourcePath + '/' + img_file)
+        # careful: the ground truth images are single-channel!
+        img_read = cv2.imread(sourcePath + '/' + img_file, cv2.IMREAD_UNCHANGED)
         # initial unrotated
         # filename ending indicates rotation amount
         cv2.imwrite(destPath + '/' + img_file.replace('.png', '') + '_0.png', img_read)
