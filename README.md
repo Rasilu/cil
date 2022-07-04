@@ -8,7 +8,8 @@ Articles  \
 Segmentation of Roads in Aerial Images - https://towardsdatascience.com/road-segmentation-727fb41c51af  \
 
 Notebooks
-https://colab.research.google.com/drive/1R9GnZtdBPWR38XodWQOeQP7ztzBz-WvK?usp=sharing
+baseline: https://colab.research.google.com/drive/1R9GnZtdBPWR38XodWQOeQP7ztzBz-WvK?usp=sharing
+soft dice loss: https://colab.research.google.com/drive/1xzPD7sbQYiYjTOGJ1aAUcqu4ZRUDAi55?usp=sharing
 
 
 GitHub will block pushes that exceed 100 MB. Split up data into multiple pushes to overcome this limit.
