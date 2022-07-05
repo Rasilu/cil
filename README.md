@@ -9,6 +9,7 @@ Segmentation of Roads in Aerial Images - https://towardsdatascience.com/road-seg
 
 Notebooks
 baseline: https://colab.research.google.com/drive/1R9GnZtdBPWR38XodWQOeQP7ztzBz-WvK?usp=sharing
+
 soft dice loss: https://colab.research.google.com/drive/1xzPD7sbQYiYjTOGJ1aAUcqu4ZRUDAi55?usp=sharing
 
 
