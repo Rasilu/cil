@@ -12,5 +12,6 @@ Segmentation of Roads in Aerial Images - https://towardsdatascience.com/road-seg
 
 - soft dice loss: https://colab.research.google.com/drive/1xzPD7sbQYiYjTOGJ1aAUcqu4ZRUDAi55?usp=sharing
 
+- Segformer: https://colab.research.google.com/github/Rasilu/cil/blob/main/code/CIL_Segformer.ipynb
 
 GitHub will block pushes that exceed 100 MB. Split up data into multiple pushes to overcome this limit.
