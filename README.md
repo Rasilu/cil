@@ -14,6 +14,6 @@ Segmentation of Roads in Aerial Images - https://towardsdatascience.com/road-seg
 
 - Segformer: https://colab.research.google.com/github/Rasilu/cil/blob/main/code/CIL_Segformer.ipynb
 
-- feature rich base notebook (hyperparameters, checkpoints ...) to use as base for combined notebook: https://colab.research.google.com/drive/1K7TZz9XB7UyCxCyh0FZu4oBQJkXUdZGz?usp=sharing
+- combined notebook: https://colab.research.google.com/drive/1xzPD7sbQYiYjTOGJ1aAUcqu4ZRUDAi55?usp=sharing
 
 GitHub will block pushes that exceed 100 MB. Split up data into multiple pushes to overcome this limit.
