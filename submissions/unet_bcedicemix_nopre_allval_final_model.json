@@ -1,0 +1,32 @@
+{
+    "hyperparameters": {
+        "datasets": [
+            "kaggle_data",
+            "new_data"
+        ],
+        "balance_datasets": false,
+        "train_set_size": 1818,
+        "val_set_size": 200,
+        "n_epochs": 60,
+        "seed": 123,
+        "model": "unet",
+        "loss_fn": "bce_dice_mix",
+        "frangi": false
+    },
+    "state": {
+        "total_iterations": 1,
+        "current_iteration": 1,
+        "epoch": 11,
+        "time_trained": 21.980756759643555
+    },
+    "metrics": {
+        "loss": 0.10976077544323184,
+        "val_loss": 0.14741208851337434,
+        "acc": 0.9621012725850993,
+        "val_acc": 0.9503384160995484,
+        "patch_acc": 0.9599799809225819,
+        "val_patch_acc": 0.9418489646911621,
+        "f1": 0.8684816789208797,
+        "val_f1": 0.8274289870262146
+    }
+}
