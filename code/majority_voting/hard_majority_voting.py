@@ -1,7 +1,6 @@
 import os
 
 import pandas as pd
-from functools import reduce
 
 
 def read_predictions_folder(folder):
