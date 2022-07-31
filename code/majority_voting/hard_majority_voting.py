@@ -18,10 +18,10 @@ def read_predictions_folder(folder):
 
 
 if __name__ == "__main__":
-    predictions = read_predictions_folder("code/majority_voting/predictions")
+    predictions = read_predictions_folder("predictions")
     df_merged = pd.concat(predictions, axis=1)
     print("majority voting in progress...")
     df_merged['majority'] = df_merged.mode(axis=1)[0] # majority voting, see https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mode.html
     final_df = df_merged[['majority']]
     final_df = final_df.rename(columns={"majority": "prediction"})
-    final_df.to_csv("code/majority_voting/majority_voting.csv")
+    final_df.to_csv("majority_voting.csv")
