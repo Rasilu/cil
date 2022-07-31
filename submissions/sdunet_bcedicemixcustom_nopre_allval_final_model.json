@@ -1,0 +1,32 @@
+{
+    "hyperparameters": {
+        "datasets": [
+            "kaggle_data",
+            "new_data"
+        ],
+        "balance_datasets": false,
+        "train_set_size": 1833,
+        "val_set_size": 200,
+        "n_epochs": 60,
+        "seed": 123,
+        "model": "sdunet",
+        "loss_fn": "focal_dice_chi",
+        "frangi": false
+    },
+    "state": {
+        "total_iterations": 1,
+        "current_iteration": 1,
+        "epoch": 21,
+        "time_trained": 22.659813404083252
+    },
+    "metrics": {
+        "loss": 0.2289054610159086,
+        "val_loss": 0.2895334619283676,
+        "acc": 0.9633729898411295,
+        "val_acc": 0.9553139686584473,
+        "patch_acc": 0.960729927342871,
+        "val_patch_acc": 0.9495833396911622,
+        "f1": 0.8725620997988659,
+        "val_f1": 0.84396479845047
+    }
+}
